@@ -19,6 +19,7 @@ namespace ExercisesTest
             Random r = new Random();
             for (int i = 0; i < 3; i++)
             {
+
                 int n = r.Next(100, 999);
                 if (n == 153 || n == 370 || n == 371 || n == 407)
                 {
